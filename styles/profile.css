@@ -1,0 +1,117 @@
+.profile-profile-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+
+    padding: 50px 0;
+    border-bottom: 2px dotted rgba(0, 0, 0, 0.308);
+}
+
+.profile-profile-main{
+    display: flex;
+    gap: 35px;
+}
+
+.profile-profile-info h1{
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-author-avatar a img{
+    width: 120px;
+    height: 120px;
+}
+
+.profile-settings-btn{
+    padding: 9px 16px 8px 16px;
+    border-radius: 20px;
+    border: 1px solid rgb(194, 178, 128);
+    cursor: pointer;
+    background: rgb(194, 178, 128);
+    color: #fff;
+}
+
+.profile-settings-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.profile-navbar{
+    display: flex;
+    background-color: initial;
+    backdrop-filter: none;
+    color: #fff;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 15px 15%;
+    justify-content: center;
+        
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+
+    border-top-color: black;
+}
+
+.profile-navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-navbar a i {
+    color: rgb(194, 178, 128);
+}
+
+
+
+
+
+.catalogue{
+    width: 100%;
+    margin: 0 auto;
+    padding: none;
+    box-shadow: none;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.catalogue .recipe{
+    flex-basis: calc(33% - 10px);
+}
+
+.catalogue .recipe-image{
+    padding-bottom: 75%;
+}
+
+.recipe-info {
+    border-bottom: none;
+    padding-bottom: 5%;
+}
+
+.recipe-info div i {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.recipe-info div {
+    height: 50px;
+    width: 50px;
+}
+
+.profile-navbar-link-selected{
+    border-bottom: 3px solid rgb(194, 178, 128);
+}
+
+.recipe-rating{
+    margin-bottom: 0;
+}

@@ -1,0 +1,499 @@
+main {
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+}
+
+
+.upload-recipe-label-input{
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.upload-recipe-label-input label{
+    text-transform: uppercase;
+
+}
+
+.recipe-name{
+    margin-bottom: 7%;
+}
+
+
+#preview img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.recipe-name input{
+    width: 100%;
+    height: 44px;
+    padding: 9px 16px 8px 16px;
+    border: 1px solid #646260;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.upload-recipe-name-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646260;
+}
+
+
+
+.container-picture-upload{
+    margin-bottom: 7%;
+}
+
+
+.picture-upload{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#picture-upload-label{
+    position: relative;
+    flex: 1 0 auto;
+    width: 135px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(194, 178, 128);
+    border-radius: 4px;
+    background-color: #faf5f0;
+
+    height: 261px;
+    width: 264px;
+}
+
+#picture-upload-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.picture-upload-spaceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(194, 178, 128);
+    cursor: pointer;
+
+    width: 100%;
+    height: 100%;
+}
+
+.picture-upload-spaceholder p{
+    margin: 10px 10%;
+    text-align: center;
+    line-height: 22px;
+}
+
+.picture-upload-spaceholder i{
+    font-size: 46px;
+}
+
+
+.picture-upload-actions{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.picture-upload-actions label{
+    color: rgb(194, 178, 128);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.picture-upload-actions-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #646260;
+}
+
+
+
+.container-recipe-selections{
+    padding-bottom: 7%;
+    
+}
+
+.container-recipe-selections .upload-recipe-label-input p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #646260;
+}
+
+.upload-recipe-selections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upload-recipe-selections label{
+    color: #212121;
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+.upload-recipe-selections-select{
+    border-color: rgb(194, 178, 128);
+    color: #212121;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 16px 0;
+    box-sizing: border-box;
+    position: relative;
+    height: 44px;
+    margin: 0;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #646260;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.upload-recipe-selections-wrapper{
+    margin-right: 8px;
+}
+
+
+
+#container-recipe-guide__ingredients{
+    display: block  ;
+    margin-top: 5%;
+    padding-top: 5%;
+    border-top: 2px dotted rgba(0, 0, 0, 0.308);
+}
+
+#container-recipe-guide__ingredients div{
+    margin-bottom: 2%;
+}
+
+.container-upload-recipe-ingredient{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-recipe-guide__ingredients .recipe-guide{
+    padding-left: 0;
+}
+
+
+.container-upload-recipe-selections-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#recipe-name-ingredient{
+    padding-top: 0;
+    margin: 0;
+}
+
+.container-upload-recipe-ingredient > div{
+    padding-right: 15px;
+}
+
+#upload-recipe{
+    padding-bottom: 25px;
+}
+
+#btn-delete-recipe{
+    width: 80px;
+    border: 1px solid rgb(194, 178, 128);
+    background: #fff;
+    color: rgb(194, 178, 128);
+}
+
+#upload-recipe-ingredient-icon{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+.container-edit-btn{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.upload-recipe-ingredient-label{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.upload-recipe-ingredient-add-btn{
+    border-radius: 4px;
+    height: 44px;
+    width: 44px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    color: #fff;
+    border: 1px solid #c2b280;
+    background: #c2b280;
+}
+
+.upload-recipe-ingredient-add-btn i{
+    position: absolute;
+}
+
+.upload-recipe-ingredient-add-btn:hover{
+    color: #fff;
+    border-color: #c2b280;
+    background: #c2b280;
+    background: rgba(194, 178, 128, 0.8);
+    border-color: rgba(194, 178, 128, 0.8);
+}
+
+
+
+
+
+
+.recipe-creation-ingredients-list__list{
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+.list__details-spaceholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #646260;
+}
+
+
+
+.recipe-creation-ingredients-list__item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 5px;
+    min-height: auto;
+    position: relative;
+    padding: 18px 71px;
+}
+
+.recipe-creation-ingredients-list__measures{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.recipe-creation-ingredients-list__measures span:last-child{
+    padding-left: 10px;
+}
+
+.recipe-creation-ingredients-list__details{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.recipe-creation-ingredients-list__actions{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.recipe-creation-ingredients-list__actions span, 
+.recipe-creation-step-list__actions span{
+    cursor: pointer;
+    transition: .1s;
+}
+
+.recipe-creation-ingredients-list__actions span:hover,
+.recipe-creation-step-list__actions span:hover{
+    color: #ea4b48;
+}
+
+
+
+
+#container-recipe-guide__steps{
+    margin-top: 5%;
+    padding-top: 5%;
+    border-top: 2px dotted rgba(0, 0, 0, 0.308);
+    
+}
+
+.container-upload-recipe-step{
+    width: 100%;
+}
+
+.container-upload-recipe-step div{
+    margin-bottom: 8px;
+}
+
+.container-upload-recipe-step div p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #646260;
+}
+
+.container-upload-recipe-step textarea{
+    width: 100%;
+    height: auto;
+    padding: 9px 16px 8px 16px;
+    border: 1px solid #646260;
+    border-radius: 4px;
+}
+
+.recipe-creation-add-steps__actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 8px;    
+    user-select: none;
+
+}
+
+.recipe-creation-add-steps__actions div {
+    width: 108px;
+    font-size: 16px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border-radius: 4px;
+    transition: 0.2s;
+    cursor: pointer;
+    background: rgb(194, 178, 128);
+    color: #fff;
+}
+
+
+#addStepBtn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.recipe-creation-add-steps__actions div:hover{
+    background: rgba(194, 178, 128, 0.8);
+    border-color: rgba(194, 178, 128, 0.8);
+}
+
+#stepList{
+    counter-reset: my-counter;
+}
+
+
+#stepList li{
+    counter-increment: step-counter;
+}
+
+
+.step-details-text:before{
+    content: counter(step-counter) ". "; 
+    font-size: 14px;
+    font-weight: 400;
+    color: #646260;
+    display: inline;
+}
+
+
+
+.recipe-creation-step-list__item{
+    min-height: auto;
+    position: relative;
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.recipe-creation-step-list__details{
+    padding-right: 22px;
+    width: 95%;
+}
+
+.recipe-creation-step-list__actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.step-details-text{
+    overflow-wrap: break-word;
+    color: #000;
+
+}
+
+
+
+.upload-submit-btn{
+    border-radius: 4px;
+    transition: 0.2s;
+    cursor: pointer;
+    background: rgb(194, 178, 128);
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    width: 140px;
+    font-size: 16px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upload-submit-btn:hover{
+    color: #fff;
+    border-color: #c2b280;
+    background: #c2b280;
+    background: rgba(194, 178, 128, 0.8);
+    border-color: rgba(194, 178, 128, 0.8);
+}
+
+.accentSpan {
+    font-weight: 400;
+    color: #484848;
+}

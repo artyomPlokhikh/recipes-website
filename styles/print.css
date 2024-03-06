@@ -1,0 +1,16 @@
+body {
+    background: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 12pt;
+}
+
+header, footer {
+    display: none;
+}
+
+@page {
+    margin: 1cm;
+  }
