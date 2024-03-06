@@ -3,7 +3,7 @@
 <p align="center"><img src="https://zwa.toad.cz/~plokhart/images/main-background.jpg" alt="project-image"></p>
 
 <p id="description">
-  Greetings everyone here you can find the source code of my project as well as a small description of the project functionality and explanation of their implementation. My recipe website was created to make it easier for users to share their favourite     recipes and find new ones.
+  Greetings everyone, here you can find the source code of my project as well as a small description of the project functionality and explanation of their implementation. My recipe website was created to make it easier for users to share their favourite     recipes and find new ones.
 </p> 
 <p>
   This project was done as part of my term project at university. Due to the terms of the course project the entire project was done without the use of third-party libraries and frameworks. This is my most extensive project so far.
@@ -44,9 +44,9 @@ Technologies used in the project:
 
 *   HTML
 *   CSS
-*   JavaScript (client-side verification; AJAX)
-*   PHP (server-side verification database communication)
-*   MySQL (tables for recipes users etc.)
+*   JavaScript (client-side verification, AJAX)
+*   PHP (server-side verification, database communication)
+*   MySQL (tables for recipes, users, etc.)
 
 <br>
 
